@@ -1,14 +1,14 @@
 class AreaShape{
-void area(int x,int y){
-System.out.println("Area of rectrangle is = " + (x*y));
+void area(int a,int b){
+System.out.println("Area of rectrangle is = " + (a*b));
 }
-void area(int x){
-System.out.println("Area of square is = " + (x*x));
+void area(int a){
+System.out.println("Area of square is = " + (a*a));
 }
-void area(int x,int y,int z){
-double s=(x+y+z)/2;
+void area(int a,int b,int c){
+double s=(a+b+c)/2;
 double triArea;
-triArea = Math.sqrt(s*(s-x)*(s-y)*(s-z));
+triArea = Math.sqrt(s*(s-a)*(s-b)*(s-c));
 System.out.println("Area of triangle is = " + triArea);
 }
 }
